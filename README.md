@@ -2,20 +2,9 @@
 A comprehensive AI governance platform that evaluates machine learning models for bias, fairness, and transparency using scikit-learn and fairlearn libraries.
 
 <p align="center">
-  <img src="public/Screenshot1.png" alt="Home" width="300" /><br>
-  <img src="public/Screenshot2.png" alt="Evaluation" width="300" />
+  <img src="public/Screenshot1.png" alt="Home"/><br>
+  <img src="public/Screenshot2.png" alt="Evaluation"/>
 </p>
-
-## Features
-- **Dual Evaluation Modes**: Choose between full model evaluation or dataset-only analysis
-- **Real-time Model Evaluation**: Upload your trained ML model (.pkl/.joblib) and test dataset (.csv) for comprehensive analysis
-- **Dataset Preview**: Automatic preview of uploaded datasets with column suggestions
-- **Bias Detection**: Uses fairlearn library to detect demographic parity differences and equalized odds differences
-- **Performance Metrics**: Calculates accuracy, precision, recall, and F1-score using scikit-learn
-- **Group Performance Analysis**: Shows performance metrics broken down by sensitive attributes
-- **Fairness Scoring**: Provides fairness and transparency scores based on analysis results
-- **Manual Evaluation Control**: Start evaluation with a button instead of automatic triggering
-- **Recommendations**: Generates actionable recommendations for bias mitigation
 
 ## Usage
 1. **Upload Model**: Upload your trained ML model file (.pkl or .joblib format)

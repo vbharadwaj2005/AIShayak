@@ -7,9 +7,8 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "AI-SAHAYAK | AI Governance Platform",
+  title: "AI Shayak",
   description: "AI Support & Accountability Gateway - Ethical AI auditing and compliance platform for India",
-  generator: "v0.app",
 }
 
 export default function RootLayout({

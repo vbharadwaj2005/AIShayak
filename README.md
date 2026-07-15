@@ -1,10 +1,10 @@
 # AI-Shayak: Ethical AI Governance Platform
 AI-Shayak is a comprehensive AI governance platform designed to evaluate machine learning models for bias, fairness, robustness, privacy, and security across multiple ML frameworks.
 
-<p align="center">
+<div style="display: flex; justify-content: center; gap: 10px;">
   <img src="frontend/public/Screenshot1.png" alt="Home" width="45%" />
   <img src="frontend/public/Screenshot2.png" alt="Evaluation" width="45%" />
-</p>
+</div>
 
 ## Key Features
 

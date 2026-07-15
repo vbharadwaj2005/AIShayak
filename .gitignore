@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Backend generated files
+backend/model.pkl
+backend/test_data.csv
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Dependencies
+frontend/node_modules/
+frontend/package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

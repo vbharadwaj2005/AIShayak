@@ -16,7 +16,7 @@
   --secondary-foreground: #000000;
   --muted: #f0f0f0;
   --muted-foreground: #000000;
-  --accent: linear-gradient(135deg, #ffffff, #e5e5e5);
+  --accent: #e5e5e5;
   --accent-foreground: #000000;
   --destructive: #000000;
   --destructive-foreground: #ffffff;
@@ -52,7 +52,7 @@
   --secondary-foreground: #ffffff;
   --muted: #1a1a1a;
   --muted-foreground: #ffffff;
-  --accent: linear-gradient(135deg, #222222, #000000);
+  --accent: #1a1a1a;
   --accent-foreground: #ffffff;
   --destructive: #333333;
   --destructive-foreground: #ffffff;

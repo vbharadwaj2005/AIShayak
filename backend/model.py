@@ -1,4 +1,3 @@
-
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder
@@ -7,7 +6,6 @@ from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
 import joblib
 
-print("Preparing Demo Files for AI-SAHAYAK")
 url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data'
 columns = [
     'age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status',
@@ -30,16 +28,7 @@ model_pipeline = Pipeline(steps=[
     ('classifier', LogisticRegression(max_iter=1000))
 ])
 
-print("\nTraining a Logistic Regression model...")
 model_pipeline.fit(X_train, y_train)
-print("Model training complete.")
-model_filename = 'model.pkl'
-joblib.dump(model_pipeline, model_filename)
-print(f"\nModel saved as '{model_filename}'")
-test_data_filename = 'test_data.csv'
+joblib.dump(model_pipeline, 'model.pkl')
 X_test['income'] = y_test
-X_test.to_csv(test_data_filename, index=False)
-print(f"Test data for evaluation saved as '{test_data_filename}'")
-print("\n--- You are ready to test your platform! ---")
-print(f"Upload '{model_filename}' and '{test_data_filename}'.")
-print("In your platform, specify 'sex' or 'race' as the sensitive attribute.")
+X_test.to_csv('test_data.csv', index=False)
